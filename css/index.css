@@ -1,0 +1,410 @@
+@charset "utf-8";
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#header {
+    margin: 0 auto;
+    background: #000;
+}
+#header .headtop {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#header .headtop .headtopleft {
+    float: left;
+}
+#header .headtop .headtopright {
+    float: right;
+}
+#header .headtop a {
+    color: #fff;
+    font-size: 12px;
+    padding-right: 10px;
+}
+#header h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#header #nav {
+    background: #fff;
+    border: 1px solid #000;
+
+}
+#header #nav .depth1 {
+    width: 1280px;
+    margin: 0 auto;
+}
+#header #nav .depth1 > li {
+    float:left;
+    margin-right: 40px ;
+}
+
+#header #nav .depth1 > li > a {
+    display: inline-block;
+    padding: 20px 0;    
+    font-weight: 700;
+    transition: all.2s;
+}
+#header #nav .depth1 > li:hover > a {
+    color : #d49855
+}
+#header #nav #search {
+    float: right;
+}
+#header #nav form {
+    margin-top: 13px;
+    border: 1px solid #000;
+}
+#header #nav input {
+    border: none;
+    width: 200px;
+    height: 30px;
+    text-indent: 1em;
+}
+#header #nav button {
+    width: 30px;
+    height: 32px;
+    background: #000;
+    border: none;
+    color: #fff;
+}
+
+/* 메인시작 */
+
+
+#main .section1 .mainimg {
+    height: 475px;
+    background-image: url(../img/main1img.jpg) ;
+    position: relative;
+    background-position: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#main .section1 .mainimg a {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 1024px;
+    height: 475px;
+    margin: 0 auto;
+    display: inline-block;
+    transform: translateX(-50%);
+    padding-left: 650px ;
+    padding-top: 130px;
+}
+#main .section1 .mainimg a > strong {
+    display: inline-block;
+    font-size: 28px;
+    margin-bottom:25px ;
+}
+#main .section1 .mainimg a > .redbox {
+    font-size: 12px;
+    text-align: center;
+    padding: 7px 10px;
+    width: 50px;
+    background: red;
+    color: #fff;
+}
+#main .section1 .mainimg a > span {
+    font-weight: 700;
+    font-size: 16px;
+}
+#main .section1 .mainimg a > p {
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+#main .section1 .mainimg a > .mainbtn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 60px;
+    color: #fff;
+    background: #000;
+}
+#main .section1 .mainimg a:hover > .mainbtn {
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+#main .section2 {
+    width: 1280px;
+    margin:50px auto;
+    text-align: center;
+    
+}
+#main .section2 h2 {
+    margin: 50px 0;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#main .section2 > .prodlist {
+    border-bottom: 1px solid #ccc ;
+
+}
+#main .section2 .prodlist > li {
+    display: inline-block;
+    margin: 10px 20px 20px 20px;
+
+
+}
+#main .section2 .prodlist > li > a {
+    font-size: 14px;
+    font-weight: 700;
+}
+#main .section2 .sec2box {
+    height: 525px;
+    margin: 50px 0;
+}
+#main .section2 .sec2box .leftbox {
+    float: left;
+    width: 40%;
+    height: 525px;
+    color: #fff;
+    background: #000;
+    background-image: url(../img/sec2leftbox.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#main .section2 .sec2box .leftbox .lefttext {
+    padding-top: 350px;
+}
+#main .section2 .sec2box .leftbox .lefttext strong {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#main .section2 .sec2box .leftbox .lefttext p {
+    color: #999;
+    font-size: 13px;
+}
+#main .section2 .sec2box .leftbox .lefttext a {
+    display: inline-block;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-size: 13px;
+}
+.imgwrap { height: 267px; line-height: 267px;}
+#main .section2 .sec2box .rightbox {
+    float: right;
+    width: 60%;
+}
+
+#main .section2 .sec2box .rightbox .rightlist > li {
+    float: left;
+    width: 33.3333%;
+    padding: 0px 40px 40px 40px;
+}
+#main .section2 .sec2box .rightbox .rightlist > li a {
+    display: inline-block;
+}
+#main .section2 .sec2box .rightbox .rightlist > li a > .new {
+    display: inline-block;
+    position: relative;
+    left: -60px;
+    top:0;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #000;
+}
+#main .section2 .sec2box .rightbox .rightlist > li strong {
+    display: inline-block;
+    padding-top: 50px;
+}
+#main .section2 .sec2box .rightbox .rightlist > li .textdeco {
+    color: #666;
+}
+#main .section2 .sec2box .rightbox .rightlist > li p {
+    padding-top: 24px;
+}
+
+
+#main .section3 .sec3img {
+    width: 100%;
+    height: 630px ;
+    background-image: url(../img/sec3img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#main .section3 .sec3img a {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    text-align: center;
+}
+#main .section3 .sec3img a > .sec3text > .sec3p1 {
+    letter-spacing: 0.5em;
+    padding: 20px 0;
+}
+#main .section3 .sec3img a > .sec3text > strong {
+    font-size: 30px;
+    padding: 10px 0;
+}
+#main .section3 .sec3img a > .sec3text > .sec3p2 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 0;
+}
+#main .section3 .sec3img a > .sec3text > .sec3p3 {
+    text-decoration: underline;
+}
+
+
+#main .section4 {
+    background: #f2f2f2 ;
+
+}
+#main .section4 .sec4wrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 10px 0 100px;
+}
+#main .section4 .sec4wrap > p {
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+#main .section4 .sec4wrap h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0;
+}
+#main .section4 .sec4wrap .sec4depth > li {
+    float: left;
+    width: 23%;
+    height: 510px;
+    background: #fff;
+    
+}
+#main .section4 .sec4wrap .sec4depth > li+li {
+    margin-left:30px ;
+}
+#main .section4 .sec4wrap .sec4depth > li .sec4text {
+    height: 210px;
+    padding: 30px 30px 30px 30px;
+}
+#main .section4 .sec4wrap .sec4depth > li .sec4text > strong {
+    font-size: 30px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#main .section4 .sec4wrap .sec4depth > li .sec4text > p {
+    color: #999;
+    line-height: 1.4em;    
+}
+#main .section4 .sec4wrap .sec4depth > li .sec4a {
+    text-decoration: underline;
+    display: inline-block;
+    padding-left: 30px ;
+}
+
+
+
+#footer {
+    background: #000;
+    width: 100%;
+}
+#footer .footwrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+}
+#footer .footwrap .foottop {
+    height: 90px;
+}
+#footer .footwrap .foottop .footicon {
+    float: left;
+    width: 33.3333%;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/GenuineProductCertificationLogo.png);
+}
+
+#footer .footwrap .foottop .footsns {
+    float: left;
+    width: 33.3333%;
+    line-height: 90px;
+}
+#footer .footwrap .foottop .footsns i {
+    display: inline-block;
+    color: #000;
+    background: #ddd;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 22px;
+    text-align: center;
+    line-height: 35px;
+}
+#footer .footwrap .foottop .footsns i+i {
+    margin-left: 5px;
+}
+
+#footer .footwrap .foottop .global {
+    float: left;
+    width: 33.3333%;
+    color: #fff;
+    text-align: right;
+
+}
+#footer .footwrap .foottop .global > a {
+    display: inline-block;
+}
+#footer .footwrap .footbottom {
+    padding-top: 20px;
+}
+#footer .footwrap .footbottom .footbt1 {
+    float: left;
+    width: 33.3333%;
+    color: #fff;
+} 
+#footer .footwrap .footbottom .footbt1 > p {
+    padding: 10px 0;
+    color:#999;
+    line-height: 1.5em;
+}
+#footer .footwrap .footbottom .footbt1 > a:last-child {
+    color: #999;
+    text-decoration: underline;
+}
+#footer .footwrap .footbottom .footbt2 {
+    float: left;
+    width: 33.3333%;
+    color: #999;
+}
+#footer .footwrap .footbottom .footbt2 .footdepth > li {
+    padding: 2px ;
+}
+#footer .footwrap .footbottom .footbt2 .footdepth > li:nth-child(7) {
+    color: #fff;
+    font-size: 17px;
+
+}
+#footer .footwrap .footbottom .footbt3 {
+    float: left;
+    width: 33.3333%;
+    color: #999;
+}
+#footer .footwrap .footbottom .footbt3 > p {
+    line-height: 2em;
+    font-size: 8.5pt;
+    padding-bottom: 5px;
+}
+#footer .footwrap .footbottom .footbt3 > p > a {
+    text-decoration: underline;
+}
+#footer .footwrap .footbottom .footbt3 .footlast {
+    width: 280px;
+    font-size: 8.5pt;
+    color: #fff;
+}
+
